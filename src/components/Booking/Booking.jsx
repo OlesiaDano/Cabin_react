@@ -177,6 +177,7 @@ function Booking({ children }) {
         return dates;
     }
 
+    // Cheks if date is booked already to disable it further
     const isDateBooked = (date) => {
         const formattedDate = date.format('YYYY-MM-DD');
         const today = dayjs().startOf('day');

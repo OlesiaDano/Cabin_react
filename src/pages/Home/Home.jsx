@@ -1,8 +1,5 @@
 import React from 'react'
-import { Typography } from '@mui/material'
-import { Banner } from './Home.style'
-import { BannerContent } from './Home.style'
-import { BannerTitle } from './Home.style'
+import { Banner, BannerContent, BannerSubtitle, BannerTitle } from './Home.style'
 import PageWrapper from '../../components/PageWrapper/PageWrapper'
 
 function Home() {
@@ -10,9 +7,9 @@ function Home() {
       <PageWrapper>
         <Banner>
           <BannerContent>
-            <Typography variant="h5" sx={{ fontSize: '1em' }}> Holiday Cottage Retreat</Typography>
+            <BannerSubtitle variant="h5" sx={{ fontSize: '1em' }}> Holiday Cottage Retreat</BannerSubtitle>
             <BannerTitle>Tree-Tub Cabin</BannerTitle>
-            <Typography variant="h6" > - Since 2023 -</Typography>
+            <BannerSubtitle variant="h6" > - Since 2023 -</BannerSubtitle>
           </BannerContent>
         </Banner>
       </PageWrapper>

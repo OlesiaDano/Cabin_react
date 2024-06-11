@@ -8,8 +8,6 @@ import { Colors } from '../../styles';
 
 function BookAndPrices() {
 
-
-
   return (
     <PageWrapper>
       <BookAndPricesTitle variant="h4" gutterBottom >

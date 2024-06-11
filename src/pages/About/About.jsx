@@ -7,7 +7,6 @@ import theme from '../../styles';
 import { Colors } from '../../styles';
 
 function About() {
-  // const isBelow900px = useMediaQuery(theme.breakpoints.down('md'));
 
   return (
     <PageWrapper theme={theme}>
@@ -24,7 +23,6 @@ function About() {
 
       <AboutContent container>
         <AboutInfo item xs={12} md={6} >
-          {/* <Container variant='xs' sx={{ maxWidth: '500px!important' }}> */}
           <AboutTitleWrapper>
             <AboutTitle variant="h3" sx={{ margin: '0 0 20px 20px', color: `${Colors.dark}` }} > A Dream Life... </AboutTitle>
           </AboutTitleWrapper>
@@ -47,7 +45,6 @@ function About() {
               <br />
               Ann&Tom</i>
           </AboutText>
-          {/* </Container> */}
         </AboutInfo>
         <Grid item xs={12} md={6} sx={{ display: 'flex', flexDirection: 'column',  alignItems: 'center', }}>
           <CardMedia component='img' src="../images/owners.jpg" alt="Owners" style={{ maxWidth: '500px' }} />

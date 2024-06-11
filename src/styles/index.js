@@ -28,23 +28,6 @@ const theme = createTheme ({
   },
 
   components: {
-    // MuiDrawer: {
-    //   styleOverrides: {
-    //     paper: {
-    //       background: Colors.dark,
-    //       color: Colors.dove_gray,
-    //       borderRadius: "0px 10px 10px 0px",
-    //       borderRight: `1px solid ${Colors.primary}`,
-    //     },
-    //   },
-    // },
-    // MuiDivider: {
-    //   styleOverrides: {
-    //     root: {
-    //       borderColor: `1px solid ${Colors.dark}`,
-    //     },
-    //   },
-    // },
     MuiDialog: {
       styleOverrides: {
         paper: {

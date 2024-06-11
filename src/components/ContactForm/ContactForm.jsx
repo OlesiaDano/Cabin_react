@@ -89,7 +89,7 @@ function ContactForm() {
                     onChange={handlePhoneChange}
                     error={error}
                     helperText={error ? 'Invalid phone number format. Use: +380xxxxxxxxx' : ''}
-                    inputProps={{ maxLength: 13 }} // Limits the length of input
+                    inputProps={{ maxLength: 13 }}
                     placeholder='Please enter number in format like "+380xxxxxxxxx".'
                 />
                 <ContactField
@@ -115,7 +115,7 @@ function ContactForm() {
                     multiline
                     rows={4}
                 />
-                <FormButton onSubmit={handleSubmit} name={'Send'} />
+                <FormButton onSubmit={handleSubmit} name={'Send'} disabled={error} />
             </Box>
         </ThemeProvider>
     );
